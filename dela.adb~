@@ -1,0 +1,26 @@
+with Ada.Text_Io; use Ada.Text_Io;
+with Ada.Integer_Text_Io; use Ada.Integer_Text_Io;
+with Date_Handling; use Date_Handling;
+
+procedure DelA is
+   
+  Date: Date_Type;
+  
+begin
+   
+   Put("Ange ett Datum: ");
+   Get(Date);
+   
+   Put("Ett datum: ");
+   Put(Date);
+   
+   New_Line;
+   Put("Nästa datum: ");
+   Put(Next_Date(Date));
+   
+   New_Line;
+   Put("Föregående datum: ");
+   Put(Previous_Date(Date));
+   
+   
+end DelA;

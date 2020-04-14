@@ -1,0 +1,72 @@
+V "GNAT Lib v4.8"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV SPARK
+
+U datum_f%b		datum_f.adb		60229377 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W date_handling%s	date_handling.adb	date_handling.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-inteio.ads		20070406091342 f64b89a4
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-unccon.ads		20070406091342 f9eb8f06
+D date_handling.ads	20181018093017 e0d28d5d
+D datum_f.adb		20181018095106 4ed6625a
+D interfac.ads		20110906094621 129923ea
+D i-cstrea.ads		20130102105938 3286f6aa
+D system.ads		20140416144310 90249111
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 12|1r6 1r23 3r6 3r31
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|45] 12|3w10 3r35
+X 8 a-textio.ads
+49K13*Text_IO 471e16 12|1w10 1r27
+73I12*Field{integer}
+166U14*New_Line 12|25s4 38s6
+242U14*Put 12|13s4 15s4 26s4 28s4 39s6 41s6
+X 9 a-tiinio.ads
+65U14*Put 12|27s4[4|18] 40s6[4|18]
+67i7 Width{8|73I12} 12|27r13[4|18] 40r15[4|18]
+X 11 date_handling.ads
+1K9*Date_Handling 24e18 12|2w6 2r25
+3R9*Date_Type 22e17 12|7r10 8r11
+6U14*Get 12|14s4 16s4
+8V13*Next_Date{3R9} 12|20s15
+9V13*Previous_Date{3R9} 12|33s15
+10V14*"<"{boolean} 12|18s11 19s15
+11V14*">"{boolean} 12|31s11 32s16
+12V14*"="{boolean} 12|22s21 35s21
+X 12 datum_f.adb
+5U11*Datum_F 5b11 45l5 45t12
+7r4 Date{11|3R9} 14m8 18r6 19r10 20m7 20r25 22r16 31r6 32r11 33m7 33r29 35r16
+8r4 Date2{11|3R9} 16m8 18r13 19r17 22r23 31r13 32r18 35r23
+9i4 Sum{integer} 21m7 21r14 27r8 34m7 34r14 40r10
+

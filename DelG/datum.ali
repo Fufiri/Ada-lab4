@@ -1,0 +1,71 @@
+V "GNAT Lib v4.8"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV SPARK
+
+U datum%b		datum.adb		fd7ff453 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W date_handling%s	date_handling.adb	date_handling.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-inteio.ads		20070406091342 f64b89a4
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-unccon.ads		20070406091342 f9eb8f06
+D date_handling.ads	20181019085227 1feec01e
+D datum.adb		20181018093100 2cb7483d
+D interfac.ads		20110906094621 129923ea
+D i-cstrea.ads		20130102105938 3286f6aa
+D system.ads		20140416144310 90249111
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 12|1r6 1r23 2r6 2r31
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|45] 12|2w10 2r35
+X 8 a-textio.ads
+49K13*Text_IO 471e16 12|1w10 1r27
+166U14*New_Line 12|37s4 41s4
+169U14*Skip_Line 12|21s12 24s12 27s12
+242U14*Put 12|14s9 34s4 38s4 42s4
+263U14*Put_Line 12|20s12 23s12 26s12
+X 11 date_handling.ads
+1K9*Date_Handling 28e18 12|3w6 3r25
+3A9*Date_Type(integer) 12|8r10
+4X4*Year_Error 12|19r14
+4X16*Month_Error 12|22r14
+4X29*Day_error 12|25r14
+6U14*Get 12|15s9
+7U14*Put 12|35s4 39s4 43s4
+8V13*Next_Date{3A9} 12|39s8
+9V13*Previous_Date{3A9} 12|43s8
+X 12 datum.adb
+5U11*Datum 5b11 48l5 48t10
+8a4 Date{11|3A9} 15m13 35r8 39r18 43r22
+

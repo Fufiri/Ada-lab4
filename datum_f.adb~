@@ -1,0 +1,28 @@
+with Ada.Text_Io; use Ada.Text_Io;
+with Date_Handling; use Date_Handling;
+with Ada.Integer_Text_Io; use Ada.Integer_Text_Io;
+
+procedure Datum_F is
+   
+   Date: Date_Type;
+   Date2: Date_Type;
+   Sum, I: Integer;
+   
+begin
+   
+   Put("Mata in dagens datum: ");
+   Get(Date);
+   Put_Line("Mata in ett annat Datum: ");
+   Get(Date2);
+   
+   while Date < Date2 loop
+     Get(Next_Date(Date));
+     exit when Date = Date2;
+     end loop;
+     
+  --   New_Line;
+    -- Put(Sum);
+       
+	
+	
+end Datum_F;
